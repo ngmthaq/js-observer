@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.box {
+  width: 100vw;
+  height: 800px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px 4px 0px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  transition: all 0.1s linear;
+}

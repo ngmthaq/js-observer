@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  js-observer:
+    image: php:8.1-apache
+    container_name: js-observer-container
+    ports:
+      - 8888:80
+    volumes:
+      - ./src/:/var/www/html/
